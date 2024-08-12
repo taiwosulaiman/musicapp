@@ -1,0 +1,53 @@
+body {
+    font-family: calibri;
+    background-color: rgb(121, 0, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#result{
+    background-color:pink;
+   /* border: 1px solid #000000; */
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    height: 92vh;
+    margin: 20px;
+}
+
+.semester{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+#student-info {
+   margin-bottom: 10px;
+   font-weight: 200;
+}
+
+#info-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#info-table th, #info-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#info-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+#calc{
+    display: flex;
+    justify-content: space-around;
+    
+}
